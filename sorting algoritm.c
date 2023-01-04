@@ -9,8 +9,6 @@ void swap(int *x, int *y)
 
 void sort(int array[], int arraySize)
 {
-    int min_index = 0;
-
     for (int i = 0; i < arraySize - 1; i++)
     {
         for (int j = i + 1; j < arraySize; j++)
