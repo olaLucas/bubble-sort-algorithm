@@ -21,7 +21,7 @@ void sort(int arrSize, int array[])
             {  
                 min_index = j;
 
-                if (array[min_index != i])
+                if (min_index != i)
                 {
                     swap(&array[min_index], &array[i]);
                 }
